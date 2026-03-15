@@ -1,17 +1,12 @@
 ```
-                                                                              
-  ██╗  ██╗ █████╗ ███╗   ██╗███████╗███████╗                                  
-  ╚██╗██╔╝██╔══██╗████╗  ██║██╔════╝██╔════╝                                  
-   ╚███╔╝ ███████║██╔██╗ ██║█████╗  ███████╗                                  
-   ██╔██╗ ██╔══██║██║╚██╗██║██╔══╝  ╚════██║                                  
-  ██╔╝ ██╗██║  ██║██║ ╚████║███████╗███████║                                  
-  ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝                                  
-                                                                              
-  Oloyede Al-amin Oladapo                                                     
-  ───────────────────────────────────────────                                  
-  backend systems · cryptography · full-stack                                  
-  building things that matter, one commit at a time                           
-                                                                              
+  $ cat /etc/hostname
+  xanes
+
+  $ finger xanes
+  Login: xanes                            Name: Oloyede Al-amin Oladapo
+  Shell: /bin/bash                        Location: Lagos, Nigeria
+  Status: backend systems · cryptography · full-stack
+  Motto:  building things that matter, one commit at a time
 ```
 
 <div align="center">
@@ -63,7 +58,7 @@ interests:
 ```
 AI-powered WhatsApp assistant
 Stack: Node.js · Gemini API · Twilio · Bull
-Status: Active Development
+Status: Active Development ⭐ 1
 ```
 > Conversational AI with smart reminders,
 > platform-agnostic user model, and
@@ -72,15 +67,15 @@ Status: Active Development
 </td>
 <td width="50%">
 
-**[⛓ SoulNode](https://github.com/smurftyy/soulnode)**
+**[⛓ Soul-Node](https://github.com/smurftyy/Soul-Node)**
 ```
-Cardano smart contract project
-Stack: Aiken · Cardano
+Cardano reputation infrastructure
+Stack: TypeScript · Aiken · Cardano
 Status: In Progress
 ```
-> Exploring on-chain logic and
-> smart contract patterns on Cardano
-> using the Aiken language.
+> Decentralized reputation infrastructure
+> for the Cardano ecosystem — on-chain
+> identity and trust primitives.
 
 </td>
 </tr>
@@ -93,18 +88,18 @@ Brand identity platform
 Stack: React · Next.js · Tailwind · Supabase
 Status: Planning → MVP
 ```
-> Brand kit generator, website builder,
-> PDF brand guide export, and
-> consultations booking system.
+> Student-powered brand lab crafting
+> bold, fresh identities — building
+> legacy by design.
 
 </td>
 <td width="50%">
 
-**[🤖 OSC-Agent](https://github.com/OpenSourceCollective/OSC-Agent)**  *(contributor)*
+**[🤖 OSC-Agent](https://github.com/smurftyy/OSC-Agent)**  *(fork · contributor)*
 ```
-Open-source CLI agent
+Open-source contributor CLI agent
+Upstream: DaniyalFaraz2003/OSC-Agent
 Contribution: Task 5.3 — osc auto
-Status: Merged
 ```
 > Implemented Autonomous Mode Command.
 > Caught missing dependency (Task 4.4)
@@ -124,8 +119,9 @@ Status: Merged
 ![TypeScript](https://img.shields.io/badge/TypeScript-4169E1?style=for-the-badge&logo=typescript&logoColor=white)
 ![Haskell](https://img.shields.io/badge/Haskell-9370DB?style=for-the-badge&logo=haskell&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-7B68EE?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Aiken](https://img.shields.io/badge/Aiken-C9A84C?style=for-the-badge&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-4169E1?style=for-the-badge&logo=html5&logoColor=white)
+![Python](https://img.shields.io/badge/Python-C9A84C?style=for-the-badge&logo=python&logoColor=black)
+![Aiken](https://img.shields.io/badge/Aiken-4169E1?style=for-the-badge&logoColor=white)
+![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-9370DB?style=for-the-badge&logo=html5&logoColor=white)
 
 </div>
 
@@ -209,4 +205,4 @@ Status: Merged
 
 <div align="center">
 <sub>crafted by xanes ♥</sub>
-</div>  
+</div>
