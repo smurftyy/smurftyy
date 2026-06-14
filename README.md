@@ -17,7 +17,7 @@ Focus:    backend systems · blockchain    Role:     Product Owner @ Blockprint
 
 ```yaml
 # whoami
-name: "Xanes"
+name: "Oloyede Al-amin Oladapo (xanes)"
 education: "BSc Computer Science — University of Lagos (200L)"
 current_role: "Full-Stack Dev & Product Owner @ Blockprint"
 building:
