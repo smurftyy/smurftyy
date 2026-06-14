@@ -1,208 +1,114 @@
 ```
-  $ cat /etc/hostname
-  xanes
+$ cat /etc/hostname
+xanes
 
-  $ finger xanes
-  Login: xanes                            Name: Oloyede Al-amin Oladapo
-  Shell: /bin/bash                        Location: Lagos, Nigeria
-  Status: backend systems · cryptography · full-stack
-  Motto:  building things that matter, one commit at a time
+$ finger xanes
+Login:    xanes                           Name:     Oloyede Al-amin Oladapo
+Shell:    /bin/zsh                        Location: Lagos, Nigeria
+Focus:    backend systems · distributed   Role:     Product Owner @ Blockprint
+          infra · blockchain              Seeking:  Backend / DevOps internship
 ```
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=7B68EE&center=true&vCenter=true&random=false&width=500&lines=%24+whoami;xanes+%7C+cs+student+%40+unilag;%24+cat+interests.txt;backend+%7C+crypto+%7C+ai%2Fml+%7C+systems;%24+echo+%22currently+building...%22)](https://git.io/typing-svg)
-
-</div>
-
 ---
-
-<div align="center">
-
-![](https://img.shields.io/badge/OS-Linux-7B68EE?style=flat-square&logo=linux&logoColor=white)
-![](https://img.shields.io/badge/Editor-Antigravity-C9A84C?style=flat-square&logoColor=white)
-![](https://img.shields.io/badge/Shell-Bash-4169E1?style=flat-square&logo=gnubash&logoColor=white)
-![](https://img.shields.io/badge/Focus-Backend_Systems-9370DB?style=flat-square)
-
-</div>
-
----
-
-### `> cat ./about.md`
 
 ```yaml
+# whoami
 name: "Xanes"
-location: "Lagos, Nigeria"
-education: "BSc Computer Science — University of Lagos"
-current_focus:
-  - shipping Whispr (AI-powered WhatsApp assistant)
-  - building XBCA (brand identity platform)
-  - learning Haskell in public (50-day challenge ✓)
+education: "BSc Computer Science — University of Lagos (200L)"
+current_role: "Full-Stack Dev & Product Owner @ Blockprint"
+building:
+  - SoulNode        # decentralized identity layer on Cardano (CIP-68 soul-bound tokens)
+  - PennyWise       # gamified finance tracker for Nigerian uni students
+  - ShieldPay       # fraud intelligence dashboard (Squad Hackathon 3.0)
+shipped:
+  - Cynaps          # offline WhatsApp → Obsidian organizer w/ local LLM (Gemma 3 via Ollama)
+  - Whispr          # AI-powered Telegram reminder bot
+  - cardano-treasury-explorer  # automated treasury monitoring bot (Blockfrost + Twitter API v2)
 interests:
-  - backend engineering & systems design
-  - cryptography & blockchain (Cardano/Aiken)
-  - AI/ML & computer vision
-  - functional programming
-  - interface design
+  - backend engineering & distributed systems
+  - blockchain infrastructure (Cardano · Aiken · Hydra L2)
+  - AI systems & local model deployment
+  - cryptography & security
 ```
 
 ---
 
-### `> ls ./projects/`
+## `> ls ./projects/`
 
-<table>
-<tr>
-<td width="50%">
-
-**[🔮 Whispr](https://github.com/smurftyy/Whispr)**
-```
-AI-powered WhatsApp assistant
-Stack: Node.js · Gemini API · Twilio · Bull
-Status: Active Development ⭐ 1
-```
-> Conversational AI with smart reminders,
-> platform-agnostic user model, and
-> scheduled task management via queues.
-
-</td>
-<td width="50%">
-
-**[⛓ Soul-Node](https://github.com/smurftyy/Soul-Node)**
-```
-Cardano reputation infrastructure
-Stack: TypeScript · Aiken · Cardano
-Status: In Progress
-```
-> Decentralized reputation infrastructure
-> for the Cardano ecosystem — on-chain
-> identity and trust primitives.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[🏗 XBCA](https://github.com/smurftyy/XBCA)**
-```
-Brand identity platform
-Stack: React · Next.js · Tailwind · Supabase
-Status: Planning → MVP
-```
-> Student-powered brand lab crafting
-> bold, fresh identities — building
-> legacy by design.
-
-</td>
-<td width="50%">
-
-**[🤖 OSC-Agent](https://github.com/smurftyy/OSC-Agent)**  *(fork · contributor)*
-```
-Open-source contributor CLI agent
-Upstream: DaniyalFaraz2003/OSC-Agent
-Contribution: Task 5.3 — osc auto
-```
-> Implemented Autonomous Mode Command.
-> Caught missing dependency (Task 4.4)
-> in the codebase during the process.
-
-</td>
-</tr>
-</table>
+| Project | Stack | What it does |
+|---|---|---|
+| [**ShieldPay**](https://github.com/smurftyy/ShieldPay) | Python · XGBoost · IsolationForest · FastAPI | Fraud intelligence dashboard — cross-merchant behavioral fingerprinting, ML scoring ensemble (IsolationForest + XGBoost), hybrid LLM/deterministic agent dispatcher |
+| [**Cynaps**](https://github.com/smurftyy/cynaps) | FastAPI · ChromaDB · Gemma 3 · whatsapp-web.js | Offline WhatsApp-to-Obsidian academic organizer — classifies messages by course code, runs fully local via Ollama |
+| [**Whispr**](https://github.com/smurftyy/Whispr) | Node.js · Bull/Redis · Express · MongoDB | AI-powered Telegram bot with smart reminders, chrono-node NLP scheduling, and queue-based notification system |
+| [**Soul-Node**](https://github.com/smurftyy/Soul-Node) | Aiken · TypeScript · Supabase · Mesh.js | Decentralized reputation infrastructure — CIP-68 soul-bound identity tokens on Cardano, on-chain attestation NFTs |
+| [**Nexus**](https://github.com/smurftyy/Nexus) | Electron · TypeScript · React · Zustand | No-code generative visual effects desktop app wrapping TouchDesigner via WebSocket |
+| [**OSC-Agent**](https://github.com/smurftyy/OSC-Agent) *(fork · contributor)* | TypeScript | Contributed Tasks 4.4 & 5.3 — Task Queue system and `osc auto` Autonomous Mode Command. Caught and fixed a dependency sequencing bug in the process |
 
 ---
 
-### `> cat ./stack.json | jq '.languages'`
+## `> cat ./stack.json | jq '.backend'`
 
-<div align="center">
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
+![Aiken](https://img.shields.io/badge/Aiken-FF6B35?style=flat-square&logoColor=white)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-C9A84C?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-4169E1?style=for-the-badge&logo=typescript&logoColor=white)
-![Haskell](https://img.shields.io/badge/Haskell-9370DB?style=for-the-badge&logo=haskell&logoColor=white)
-![C++](https://img.shields.io/badge/C++-7B68EE?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-C9A84C?style=for-the-badge&logo=python&logoColor=black)
-![Aiken](https://img.shields.io/badge/Aiken-4169E1?style=for-the-badge&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-9370DB?style=for-the-badge&logo=html5&logoColor=white)
+## `> cat ./stack.json | jq '.infra'`
 
-</div>
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![pm2](https://img.shields.io/badge/pm2-2B037A?style=flat-square&logo=pm2&logoColor=white)
 
-### `> cat ./stack.json | jq '.tools'`
+## `> cat ./stack.json | jq '.blockchain'`
 
-<div align="center">
-
-![Node.js](https://img.shields.io/badge/Node.js-7B68EE?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-4169E1?style=for-the-badge&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-9370DB?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-C9A84C?style=for-the-badge&logo=tailwindcss&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-7B68EE?style=for-the-badge&logo=supabase&logoColor=white)
-![Git](https://img.shields.io/badge/Git-4169E1?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-9370DB?style=for-the-badge&logo=linux&logoColor=white)
-
-</div>
+![Cardano](https://img.shields.io/badge/Cardano-0033AD?style=flat-square&logo=cardano&logoColor=white)
+![Blockfrost](https://img.shields.io/badge/Blockfrost-1B77B0?style=flat-square&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white)
 
 ---
 
-### `> neofetch --socials`
+## `> cat /var/log/currently.log`
 
 ```
-                        xanes@github
-   ╭────────────╮       ─────────────────────
-   │  > _       │       🔗  twitter/x   @Xanes_007
-   │            │       📷  instagram   @heistomi007
-   │   xanes    │       📬  email       xanesfkasmurftyy@gmail.com
-   │            │       🐙  github      smurftyy
-   ╰────────────╯       
-```
-
-<div align="center">
-
-[![X](https://img.shields.io/badge/@Xanes__007-7B68EE?style=flat-square&logo=x&logoColor=white)](https://x.com/Xanes_007)
-[![Instagram](https://img.shields.io/badge/@heistomi007-9370DB?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/heistomi007)
-[![Email](https://img.shields.io/badge/xanesfkasmurftyy@gmail.com-C9A84C?style=flat-square&logo=gmail&logoColor=black)](mailto:xanesfkasmurftyy@gmail.com)
-
-</div>
-
----
-
-### `> cat /var/log/haskell-challenge.log`
-
-```
-┌──────────────────────────────────────────────────┐
-│  #LearningHaskellInPublic — 50 Days ✓            │
-│──────────────────────────────────────────────────│
-│  Day 01 ██░░░░░░░░░░░░░░  Basics & types        │
-│  Day 20 ████████░░░░░░░░  Monads & IO            │
-│  Day 40 █████████████░░░  Yesod web framework    │
-│  Day 50 ████████████████  Challenge complete      │
-│──────────────────────────────────────────────────│
-│  Key insight: Haskell's type system enforces      │
-│  authorization at compile time — the compiler     │
-│  won't let you forget a route in isAuthorized.    │
-└──────────────────────────────────────────────────┘
+[2026-06] shipping SoulNode governance contracts on Cardano Preprod
+[2026-06] backend infra for PennyWise — scoring engine, OCR pipeline, Supabase Edge Functions
+[2026-06] learning DevOps fundamentals — Docker, CI/CD, Linux administration
+[2026-06] open to backend / DevOps internships (remote or Lagos-based)
 ```
 
 ---
 
-<div align="center">
-
-### `> uptime`
+## `> neofetch --socials`
 
 ```
- ██████╗  ██████╗ ███╗   ██╗████████╗
-██╔════╝ ██╔═══██╗████╗  ██║╚══██╔══╝
-██║      ██║   ██║██╔██╗ ██║   ██║   
-██║      ██║   ██║██║╚██╗██║   ██║   
-╚██████╗ ╚██████╔╝██║ ╚████║   ██║   
- ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   
-      
- just build. ship. iterate.
+xanes@github
+─────────────────────────────
+twitter/x    @Xanes_007
+email        xanesfkasmurftyy@gmail.com
+portfolio    xanes-dev.netlify.app
+github       smurftyy
 ```
 
-<img src="https://komarev.com/ghpvc/?username=smurftyy&color=7B68EE&style=flat-square&label=visitors" />
-
-</div>
+[![Twitter](https://img.shields.io/badge/@Xanes__007-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/Xanes_007)
+[![Email](https://img.shields.io/badge/email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:xanesfkasmurftyy@gmail.com)
+[![Portfolio](https://img.shields.io/badge/portfolio-xanes--dev.netlify.app-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://xanes-dev.netlify.app)
 
 ---
 
-<div align="center">
-<sub>crafted by xanes ♥</sub>
-</div>
+## `> uptime`
+
+![Visitor Count](https://komarev.com/ghpvc/?username=smurftyy&style=flat-square&color=363636&label=visitors)
+
+```
+just build. ship. iterate.
+```
+
+---
+
+*crafted by xanes ♥*
