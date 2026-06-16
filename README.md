@@ -89,27 +89,7 @@ interests:
 
 ---
 
-## `> htop --stats`
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=smurftyy&show_icons=true&theme=dark&bg_color=0d1117&title_color=3ECF8E&icon_color=3ECF8E&text_color=c9d1d9&border_color=30363d&include_all_commits=true&count_private=true&hide_border=false" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=smurftyy&layout=compact&theme=dark&bg_color=0d1117&title_color=3ECF8E&text_color=c9d1d9&border_color=30363d&hide_border=false&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=smurftyy&theme=dark&background=0d1117&ring=3ECF8E&fire=3ECF8E&currStreakLabel=3ECF8E&sideLabels=c9d1d9&dates=8b949e&border=30363d" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=smurftyy&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=6" />
-
-</div>
 
 ---
 
