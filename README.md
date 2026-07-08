@@ -1,4 +1,4 @@
-<h1 align="left">Hey, I'm Xanes 👋</h1>
+<h1 align="left">Hey, I'm Xanes </h1>
 
 Hi! I'm a 200-level Computer Science student at the University of Lagos, currently working as a Full-Stack Developer at **Blockprint**. I like building things that actually ship — from job-matching platforms to blockchain reputation systems to CLI tools. I care about depth, architecture trade-offs, and systems thinking over surface-level solutions. You can find me around the internet as **smurftyy**. Looking forward to connecting!
 
