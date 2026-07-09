@@ -5,7 +5,7 @@ Hi! I'm a 200-level Computer Science student at the University of Lagos, current
 ## Skills
 
 ### Backend Engineering
-- Python, TypeScript, Go, Rust
+- Python, TypeScript, Go
 - FastAPI, Node.js, Express.js
 - PostgreSQL, Supabase, Redis, MongoDB
 - Docker
