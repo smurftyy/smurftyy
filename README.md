@@ -8,7 +8,7 @@ Hi! I'm a 200-level Computer Science student at the University of Lagos, current
 - Python, TypeScript, Go
 - FastAPI, Node.js, Express.js
 - PostgreSQL, Supabase, Redis, MongoDB
-- Docker
+- Docker,Bash. 
 
 ### Frontend Engineering
 - HTML, CSS, JavaScript, TypeScript
