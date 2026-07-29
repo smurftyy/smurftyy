@@ -17,6 +17,7 @@ Hi! I'm a 200-level Computer Science student at the University of Lagos, current
 ### Blockchain & Web3
 - Cardano (Aiken, Mesh.js, Blockfrost, CIP-68)
 - Smart Contract / Validator Development
+- Haskell
 
 ## Projects
 
